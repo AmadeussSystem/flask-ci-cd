@@ -4,7 +4,7 @@ pipeline {
   environment {
     // Replace these with your real values:
     REPO_URL     = 'https://github.com/AmadeussSystem/flask-ci-cd.git'
-    DOCKER_IMAGE = 'Esdeathhh/flask-app'
+    DOCKER_IMAGE = 'esdeathhh/flask-app'
     DEPLOY_SERVER= 'ubuntu@13.232.21.132'   // ← your staging IP or hostname
   }
 
